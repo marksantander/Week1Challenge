@@ -1,0 +1,203 @@
+/* Universal selector targets all HTML elements*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/* Element selector targets the body element */
+body {
+    background-color: #d9dcd6;
+}
+
+/* Class selector targetting element with a secific class attribute*/
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+/* Class selector targets the h1 element*/
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+/* Class selector targets the h1 element with class attribute seo*/
+.header h1 .seo {
+    color: #d9dcd6;
+}
+/* Class selector targets article element*/
+.header article {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+/* Class selector targets the unordered list element child of article element*/
+.header article ul {
+    list-style-type: none;
+}
+/* Class selector targets the listed item element child element of ul element child of article element*/
+.header article ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+/* Element selector targeting a element*/
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+/* Element selector targeting p element*/
+p {
+    font-size: 16px;
+}
+/* Class selector targeting element with a secific class attribute*/
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+/* Class selector targeting element with a secific class attribute*/
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+/* Class selector targeting element with a secific class attribute*/
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+/* Class selector targeting element with a secific class attribute*/
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+/* Class selector targeting element with a secific class attribute*/
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+/* Class selector targeting element with a secific class attribute*/
+.benefit-lead {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+/* Class selector targeting element with a secific class attribute*/
+.benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+/* Class selector targeting element with a secific class attribute*/
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+/* Class selector targeting h3 element*/
+.benefit-lead h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+/* Class selector targeting h3 element*/
+.benefit-brand h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+/* Class selector targeting h3 element*/
+.benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+/* Class selector targeting img element*/
+.benefit-lead img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+/* Class selector targeting img element*/
+.benefit-brand img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+/* Class selector targeting img element*/
+.benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+/* Class selector targeting element with a secific class attribute*/
+.search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+/* Class selector targeting element with a secific class attribute*/
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+/* Class selector targeting element with a secific class attribute*/
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+/* Class selector targeting img element*/
+.search-engine-optimization img {
+    max-height: 200px;
+}
+/* Class selector targeting img element*/
+.online-reputation-management img {
+    max-height: 200px;
+}
+/* Class selector targeting img element*/
+.social-media-marketing img {
+    max-height: 200px;
+}
+/* Class selector targeting h2 element*/
+.search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+/* Class selector targeting h2 element*/
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+/* Class selector targeting h2 element*/
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+/* Class selector targeting element with a secific class attribute*/
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+/* Class selector targeting h2 element*/
+.footer h2 {
+    font-size: 20px;
+}
